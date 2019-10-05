@@ -3,7 +3,12 @@ import React,{Component} from 'react'
 class Footer extends Component{
     render(){
         return(
-            <div></div>
+            <footer className="container-fluid text-center">
+                <a href="#myPage" title="To Top">
+                    <span className="glyphicon glyphicon-chevron-up"></span>
+                </a>
+                <p>SIST 강의장</p>
+            </footer>
         )
     }
 }
